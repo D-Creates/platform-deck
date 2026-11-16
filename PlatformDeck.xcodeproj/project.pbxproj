@@ -1,0 +1,926 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F760AA1D3EB3EA4512AFB2C /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA45047CD294E7A8F053720 /* Views.swift */; };
+		4060D1064A31C9F1B6263708 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA45047CD294E7A8F053720 /* Views.swift */; };
+		48DC32E8A979BB799A9ED374 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5F96A7575650903753A10 /* Model.swift */; };
+		5442F3696C7F046FDD141C80 /* Views.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EA45047CD294E7A8F053720 /* Views.swift */; };
+		5D0C423D85E4AE947AE2D539 /* DeckStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A39497D9AE590B45D0100 /* DeckStoreTests.swift */; };
+		659EC484500636B4C6C4A956 /* Watch.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20BFDC4DA0C72E639A0C267D /* Watch.xcassets */; };
+		697DE028B6B78C4199017273 /* iOS.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20A1653664CEF7992E8D7B55 /* iOS.xcassets */; };
+		69807BBF5FC828694B05C3FE /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5F96A7575650903753A10 /* Model.swift */; };
+		7557FCB5D046D5CE12E03541 /* macOS.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 271E73E230131755C301F436 /* macOS.xcassets */; };
+		762FDC73B874AC3AA5A56C27 /* guides.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B36763005437D095999C4B8 /* guides.json */; };
+		83A531028B280F411D998234 /* PlatformDeckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38769A8F8831912171ECB54A /* PlatformDeckUITests.swift */; };
+		83FE6B9E231F3A57E21263BC /* PlatformDeckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DCFDAB30E3364A05AF3E4F5 /* PlatformDeckApp.swift */; };
+		8722F79CF8B927D16C8FD647 /* guides.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B36763005437D095999C4B8 /* guides.json */; };
+		873EFA858283503D58533766 /* PlatformDeckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38769A8F8831912171ECB54A /* PlatformDeckUITests.swift */; };
+		938C1B353D6F6289FFA546D4 /* guides.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B36763005437D095999C4B8 /* guides.json */; };
+		AAEF5774209E387E86AB2B26 /* PlatformDeckMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9A7F7F05B05AD7AD8254885 /* PlatformDeckMacApp.swift */; };
+		B37CBB029FB3703A9B171993 /* PlatformDeckWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 868BA4752C55C0D05A9FBBF5 /* PlatformDeckWatchApp.swift */; };
+		D38E95C0999930CC7DF11015 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F5F96A7575650903753A10 /* Model.swift */; };
+		E8D7F43DFBAFD550E22CACCD /* PlatformDeckUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38769A8F8831912171ECB54A /* PlatformDeckUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AD6323BC62E8566BDE09244 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E5A0000CC8C9A1C51DF96C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221120E74C325E9BF69C469A;
+			remoteInfo = PlatformDeck;
+		};
+		5048CF2C98C964CFC584BAA0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E5A0000CC8C9A1C51DF96C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2E7E718C42ACC42308C42F42;
+			remoteInfo = PlatformDeckWatch;
+		};
+		5C4F12A8DE3CACF82DDC20F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E5A0000CC8C9A1C51DF96C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 058C6424D90457B8D58C443E;
+			remoteInfo = PlatformDeckMac;
+		};
+		F2B7FCCDBD2AD4501F9F62D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F2E5A0000CC8C9A1C51DF96C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 221120E74C325E9BF69C469A;
+			remoteInfo = PlatformDeck;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		20A1653664CEF7992E8D7B55 /* iOS.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = iOS.xcassets; sourceTree = "<group>"; };
+		20BFDC4DA0C72E639A0C267D /* Watch.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Watch.xcassets; sourceTree = "<group>"; };
+		271E73E230131755C301F436 /* macOS.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = macOS.xcassets; sourceTree = "<group>"; };
+		310D68F0B0B600023ACE7F9E /* PlatformDeckTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PlatformDeckTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		31F5F96A7575650903753A10 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		38769A8F8831912171ECB54A /* PlatformDeckUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformDeckUITests.swift; sourceTree = "<group>"; };
+		3DCFDAB30E3364A05AF3E4F5 /* PlatformDeckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformDeckApp.swift; sourceTree = "<group>"; };
+		6B36763005437D095999C4B8 /* guides.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = guides.json; sourceTree = "<group>"; };
+		7EA45047CD294E7A8F053720 /* Views.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Views.swift; sourceTree = "<group>"; };
+		868BA4752C55C0D05A9FBBF5 /* PlatformDeckWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformDeckWatchApp.swift; sourceTree = "<group>"; };
+		8B6A32FD24E92B6D16D76C88 /* PlatformDeckUITests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = PlatformDeckUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95FD4BCE573D6CBDF7A603FC /* PlatformDeck.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PlatformDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B4A39497D9AE590B45D0100 /* DeckStoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeckStoreTests.swift; sourceTree = "<group>"; };
+		CC5237639F2CCDAFAC9775E2 /* PlatformDeckWatchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatformDeckWatchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCD22F913E3308C0C85CDF04 /* PlatformDeckWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatformDeckWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA524475C80D4FFAA1F0DF78 /* PlatformDeckMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlatformDeckMacUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F058B0A2BAA20BC744B05069 /* PlatformDeckMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlatformDeckMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9A7F7F05B05AD7AD8254885 /* PlatformDeckMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlatformDeckMacApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1058AC939D527C2A86425690 = {
+			isa = PBXGroup;
+			children = (
+				AB5CC48A1CF827413FF3844C /* Assets */,
+				AE600FDD2C4F1115D5FEE2D9 /* iOS */,
+				E63E9ABEAEC1F5AF59E83AD8 /* macOS */,
+				6EF2F0AFE45300D768833228 /* Shared */,
+				26602DB339EC68DBED7BDFF5 /* Tests */,
+				E1BEFB792F704F9209D6210B /* UITests */,
+				7406A8E1EC96C19B8B3D9A53 /* Watch */,
+				E2EF0B8D4B9A9DFEB7998E29 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		26602DB339EC68DBED7BDFF5 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9B4A39497D9AE590B45D0100 /* DeckStoreTests.swift */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		6EF2F0AFE45300D768833228 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6B36763005437D095999C4B8 /* guides.json */,
+				31F5F96A7575650903753A10 /* Model.swift */,
+				7EA45047CD294E7A8F053720 /* Views.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7406A8E1EC96C19B8B3D9A53 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				868BA4752C55C0D05A9FBBF5 /* PlatformDeckWatchApp.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		AB5CC48A1CF827413FF3844C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				20A1653664CEF7992E8D7B55 /* iOS.xcassets */,
+				271E73E230131755C301F436 /* macOS.xcassets */,
+				20BFDC4DA0C72E639A0C267D /* Watch.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		AE600FDD2C4F1115D5FEE2D9 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3DCFDAB30E3364A05AF3E4F5 /* PlatformDeckApp.swift */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		E1BEFB792F704F9209D6210B /* UITests */ = {
+			isa = PBXGroup;
+			children = (
+				38769A8F8831912171ECB54A /* PlatformDeckUITests.swift */,
+			);
+			path = UITests;
+			sourceTree = "<group>";
+		};
+		E2EF0B8D4B9A9DFEB7998E29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95FD4BCE573D6CBDF7A603FC /* PlatformDeck.app */,
+				F058B0A2BAA20BC744B05069 /* PlatformDeckMac.app */,
+				EA524475C80D4FFAA1F0DF78 /* PlatformDeckMacUITests.xctest */,
+				310D68F0B0B600023ACE7F9E /* PlatformDeckTests.xctest */,
+				8B6A32FD24E92B6D16D76C88 /* PlatformDeckUITests.xctest */,
+				CCD22F913E3308C0C85CDF04 /* PlatformDeckWatch.app */,
+				CC5237639F2CCDAFAC9775E2 /* PlatformDeckWatchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E63E9ABEAEC1F5AF59E83AD8 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				F9A7F7F05B05AD7AD8254885 /* PlatformDeckMacApp.swift */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		058C6424D90457B8D58C443E /* PlatformDeckMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D32E27DB2ED9B2C43CCF8DD /* Build configuration list for PBXNativeTarget "PlatformDeckMac" */;
+			buildPhases = (
+				5EEC9F662732936C98BF8FCE /* Sources */,
+				48C22C129FA04E49FCEED9B6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlatformDeckMac;
+			packageProductDependencies = (
+			);
+			productName = PlatformDeckMac;
+			productReference = F058B0A2BAA20BC744B05069 /* PlatformDeckMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06473499436828C0A2655A7E /* PlatformDeckMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C48E603611541001E1B3558 /* Build configuration list for PBXNativeTarget "PlatformDeckMacUITests" */;
+			buildPhases = (
+				98EB1BF79EDD1F2D93AE79BA /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9584A8AB751E2FDD2FF013D2 /* PBXTargetDependency */,
+			);
+			name = PlatformDeckMacUITests;
+			packageProductDependencies = (
+			);
+			productName = PlatformDeckMacUITests;
+			productReference = EA524475C80D4FFAA1F0DF78 /* PlatformDeckMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		221120E74C325E9BF69C469A /* PlatformDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95AF6B3080C6B07009A43FC6 /* Build configuration list for PBXNativeTarget "PlatformDeck" */;
+			buildPhases = (
+				2C2F99F2EF7294B06250C3A1 /* Sources */,
+				ACBD1F6A792D399525E76740 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlatformDeck;
+			packageProductDependencies = (
+			);
+			productName = PlatformDeck;
+			productReference = 95FD4BCE573D6CBDF7A603FC /* PlatformDeck.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2E7E718C42ACC42308C42F42 /* PlatformDeckWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45630231480F2BBB6782C101 /* Build configuration list for PBXNativeTarget "PlatformDeckWatch" */;
+			buildPhases = (
+				55F6B5413795F46893F7C779 /* Sources */,
+				D427F4189C511AC2C9DF0698 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlatformDeckWatch;
+			packageProductDependencies = (
+			);
+			productName = PlatformDeckWatch;
+			productReference = CCD22F913E3308C0C85CDF04 /* PlatformDeckWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33DD4D899CD866EE94BA3FA1 /* PlatformDeckTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E36B1E3BCA0D27383035B30D /* Build configuration list for PBXNativeTarget "PlatformDeckTests" */;
+			buildPhases = (
+				8CA130310A97D1A4D35C5561 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF553270F9525413EA36452A /* PBXTargetDependency */,
+			);
+			name = PlatformDeckTests;
+			packageProductDependencies = (
+			);
+			productName = PlatformDeckTests;
+			productReference = 310D68F0B0B600023ACE7F9E /* PlatformDeckTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		35D242FAE9D851D07BCB7C29 /* PlatformDeckUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E06B10D0DAB36524AF24D53E /* Build configuration list for PBXNativeTarget "PlatformDeckUITests" */;
+			buildPhases = (
+				230F22FF790EA19C28F5D42D /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0FF5B8FD516B9585403D1069 /* PBXTargetDependency */,
+			);
+			name = PlatformDeckUITests;
+			packageProductDependencies = (
+			);
+			productName = PlatformDeckUITests;
+			productReference = 8B6A32FD24E92B6D16D76C88 /* PlatformDeckUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		D851F41C3AAD05DA6B9437B7 /* PlatformDeckWatchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3D3FF1A0CFA603357D193AD8 /* Build configuration list for PBXNativeTarget "PlatformDeckWatchUITests" */;
+			buildPhases = (
+				2A91161B21A2D69463DD4CBC /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4521E7ED20E997B9D2654577 /* PBXTargetDependency */,
+			);
+			name = PlatformDeckWatchUITests;
+			packageProductDependencies = (
+			);
+			productName = PlatformDeckWatchUITests;
+			productReference = CC5237639F2CCDAFAC9775E2 /* PlatformDeckWatchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F2E5A0000CC8C9A1C51DF96C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					058C6424D90457B8D58C443E = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					06473499436828C0A2655A7E = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 058C6424D90457B8D58C443E;
+					};
+					221120E74C325E9BF69C469A = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					2E7E718C42ACC42308C42F42 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					33DD4D899CD866EE94BA3FA1 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					35D242FAE9D851D07BCB7C29 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 221120E74C325E9BF69C469A;
+					};
+					D851F41C3AAD05DA6B9437B7 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2E7E718C42ACC42308C42F42;
+					};
+				};
+			};
+			buildConfigurationList = 0D25572024F9722AF8952DE7 /* Build configuration list for PBXProject "PlatformDeck" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 1058AC939D527C2A86425690;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = E2EF0B8D4B9A9DFEB7998E29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				221120E74C325E9BF69C469A /* PlatformDeck */,
+				058C6424D90457B8D58C443E /* PlatformDeckMac */,
+				2E7E718C42ACC42308C42F42 /* PlatformDeckWatch */,
+				33DD4D899CD866EE94BA3FA1 /* PlatformDeckTests */,
+				35D242FAE9D851D07BCB7C29 /* PlatformDeckUITests */,
+				06473499436828C0A2655A7E /* PlatformDeckMacUITests */,
+				D851F41C3AAD05DA6B9437B7 /* PlatformDeckWatchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		48C22C129FA04E49FCEED9B6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				762FDC73B874AC3AA5A56C27 /* guides.json in Resources */,
+				7557FCB5D046D5CE12E03541 /* macOS.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBD1F6A792D399525E76740 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				938C1B353D6F6289FFA546D4 /* guides.json in Resources */,
+				697DE028B6B78C4199017273 /* iOS.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D427F4189C511AC2C9DF0698 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				659EC484500636B4C6C4A956 /* Watch.xcassets in Resources */,
+				8722F79CF8B927D16C8FD647 /* guides.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		230F22FF790EA19C28F5D42D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83A531028B280F411D998234 /* PlatformDeckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A91161B21A2D69463DD4CBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E8D7F43DFBAFD550E22CACCD /* PlatformDeckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C2F99F2EF7294B06250C3A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69807BBF5FC828694B05C3FE /* Model.swift in Sources */,
+				83FE6B9E231F3A57E21263BC /* PlatformDeckApp.swift in Sources */,
+				5442F3696C7F046FDD141C80 /* Views.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55F6B5413795F46893F7C779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DC32E8A979BB799A9ED374 /* Model.swift in Sources */,
+				B37CBB029FB3703A9B171993 /* PlatformDeckWatchApp.swift in Sources */,
+				0F760AA1D3EB3EA4512AFB2C /* Views.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5EEC9F662732936C98BF8FCE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D38E95C0999930CC7DF11015 /* Model.swift in Sources */,
+				AAEF5774209E387E86AB2B26 /* PlatformDeckMacApp.swift in Sources */,
+				4060D1064A31C9F1B6263708 /* Views.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CA130310A97D1A4D35C5561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D0C423D85E4AE947AE2D539 /* DeckStoreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98EB1BF79EDD1F2D93AE79BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				873EFA858283503D58533766 /* PlatformDeckUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0FF5B8FD516B9585403D1069 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221120E74C325E9BF69C469A /* PlatformDeck */;
+			targetProxy = 2AD6323BC62E8566BDE09244 /* PBXContainerItemProxy */;
+		};
+		4521E7ED20E997B9D2654577 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2E7E718C42ACC42308C42F42 /* PlatformDeckWatch */;
+			targetProxy = 5048CF2C98C964CFC584BAA0 /* PBXContainerItemProxy */;
+		};
+		9584A8AB751E2FDD2FF013D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 058C6424D90457B8D58C443E /* PlatformDeckMac */;
+			targetProxy = 5C4F12A8DE3CACF82DDC20F0 /* PBXContainerItemProxy */;
+		};
+		BF553270F9525413EA36452A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 221120E74C325E9BF69C469A /* PlatformDeck */;
+			targetProxy = F2B7FCCDBD2AD4501F9F62D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03E60F3FC9D40D3B44C768C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.PlatformDeckWatchUITests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = PlatformDeckWatch;
+			};
+			name = Debug;
+		};
+		0EC2737652FB8C0B26370320 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.PlatformDeckUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlatformDeck;
+			};
+			name = Release;
+		};
+		0F8891E7B92834256E0E36D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.PlatformDeckMacUITests;
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = PlatformDeckMac;
+			};
+			name = Debug;
+		};
+		131709ED91F8657040D5CFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.platformdeck.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		1980C36AD0D117763484DD52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.PlatformDeckTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatformDeck.app/PlatformDeck";
+			};
+			name = Release;
+		};
+		1E66736363BDC9421277166D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.platformdeck;
+				PRODUCT_NAME = "Platform Deck";
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2877CB357DD34D652807861A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.PlatformDeckUITests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = PlatformDeck;
+			};
+			name = Debug;
+		};
+		5300BB05CE976B38FD096829 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Platform Deck";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
+		6D15C0F6DDBC829CB075F038 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.platformdeck;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		771B5AFFDA497ACA8839246C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Platform Deck";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MACOSX_DEPLOYMENT_TARGET = 15.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		7BCFFEB05A5697F363E439C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_KEY_WKApplication = YES;
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.platformdeck.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		7D0CD599B261F5C3D79BAEEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.PlatformDeckWatchUITests;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = PlatformDeckWatch;
+			};
+			name = Release;
+		};
+		ABF294446EA670F77EC08102 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.PlatformDeckMacUITests;
+				SDKROOT = macosx;
+				TEST_TARGET_NAME = PlatformDeckMac;
+			};
+			name = Release;
+		};
+		AD4FAA6DAECC39FDBC8239B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.PlatformDeckTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlatformDeck.app/PlatformDeck";
+			};
+			name = Debug;
+		};
+		AF72166E4BB321C7B702071D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_APP_SANDBOX = YES;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.platformdeck;
+				PRODUCT_NAME = "Platform Deck";
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F7ACD65D29A10C7C27FBEF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = fr.dcreations.platformdeck;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D25572024F9722AF8952DE7 /* Build configuration list for PBXProject "PlatformDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				771B5AFFDA497ACA8839246C /* Debug */,
+				5300BB05CE976B38FD096829 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3D3FF1A0CFA603357D193AD8 /* Build configuration list for PBXNativeTarget "PlatformDeckWatchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03E60F3FC9D40D3B44C768C5 /* Debug */,
+				7D0CD599B261F5C3D79BAEEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		45630231480F2BBB6782C101 /* Build configuration list for PBXNativeTarget "PlatformDeckWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				131709ED91F8657040D5CFD3 /* Debug */,
+				7BCFFEB05A5697F363E439C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6C48E603611541001E1B3558 /* Build configuration list for PBXNativeTarget "PlatformDeckMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F8891E7B92834256E0E36D1 /* Debug */,
+				ABF294446EA670F77EC08102 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7D32E27DB2ED9B2C43CCF8DD /* Build configuration list for PBXNativeTarget "PlatformDeckMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF72166E4BB321C7B702071D /* Debug */,
+				1E66736363BDC9421277166D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		95AF6B3080C6B07009A43FC6 /* Build configuration list for PBXNativeTarget "PlatformDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6D15C0F6DDBC829CB075F038 /* Debug */,
+				F7ACD65D29A10C7C27FBEF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E06B10D0DAB36524AF24D53E /* Build configuration list for PBXNativeTarget "PlatformDeckUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2877CB357DD34D652807861A /* Debug */,
+				0EC2737652FB8C0B26370320 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E36B1E3BCA0D27383035B30D /* Build configuration list for PBXNativeTarget "PlatformDeckTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD4FAA6DAECC39FDBC8239B8 /* Debug */,
+				1980C36AD0D117763484DD52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F2E5A0000CC8C9A1C51DF96C /* Project object */;
+}
