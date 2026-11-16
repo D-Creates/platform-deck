@@ -14,4 +14,4 @@ Platform Deck — modern web platform techniques as offline flash cards. 251 car
 
 
 
-Made by [D-CREATIONS](https://dcreations.fr), Montpellier. MIT licence.
+Made by [D-CREATIONS](https://dcreations.fr), Montpellier. Apache License 2.0 (see LICENSE and NOTICE).
